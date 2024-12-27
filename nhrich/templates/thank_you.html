@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+
+<body>
+    <div class="container text-center mt-5">
+        <h1>Thank You!</h1>
+        <p>Your free download is ready.</p>
+        <a href="{% static 'files/free-file.pdf' %}" download class="btn btn-primary">Download Now</a>
+    </div>
+</body>
+
+</html>
