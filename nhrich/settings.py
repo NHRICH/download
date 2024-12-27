@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ost*8oa$(or%(y1q!08z3pnliijx^-(2q8g4k$takl!b$s09wb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.versile.app']
 
 
 # Application definition
